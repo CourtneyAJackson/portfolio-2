@@ -60,10 +60,12 @@
 
 * {
   outline: none;
+  text-align: center;
 }
 
 body {
   margin: 0;
+  
   overflow-y: overlay;
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
@@ -128,6 +130,10 @@ body ::-webkit-scrollbar-thumb {
 
   font-size: 12px;
   background-color: #ff5823;
+  height: 35px;
+    width: 125px;
+    border: solid;
+    border-radius: 25px;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {

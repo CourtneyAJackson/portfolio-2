@@ -1,11 +1,14 @@
 import React from "react";
 import Typical from "react-typical";
+import './Home.css'
+import { Link } from 'react-router-dom'
 // import Button from 'react-typical'
 
 export default function Home() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
+        {/* <Link to='/AboutMe'>About Me</Link> */}
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
@@ -21,7 +24,7 @@ export default function Home() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'm <span classname="highlighted-text">Courtney</span>
+              Hello, I'm <span className="highlighted-text">Courtney</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -44,13 +47,12 @@ export default function Home() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building applications with front and back end
-                operations.
+                Enthusiastic Software Developer with Full Stack Expertese
               </span>
             </span>
           </div>
           <div className="profile-options">
-            <button className="primary-button"> Hire Me </button>
+            {/* <button className="primary-button"> Hire Me </button> */}
             <a href="CourtneyJackson.pdf" download='CourtneyJackson.pdf'>
               <button className='highlighted-button'>My Resume</button>
             </a>

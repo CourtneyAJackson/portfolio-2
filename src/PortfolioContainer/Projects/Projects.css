@@ -1,0 +1,114 @@
+.project-card-container{
+  width: 100%;
+  /* background: black; */
+  padding: 7px;
+  box-shadow: 0px 0px 3px 3px lightgrey;
+}
+
+.project-card-container{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 7px;
+
+}
+.project-title{
+  font-weight: 600;
+  border: solid;
+  font-family: cursive;
+  box-shadow: 0px 0px 15px -1px;
+  background: #babade;
+  color: #ff5722;
+}
+
+.project-1{
+    width:20%;
+    background: white;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    /* height: auto; */
+    margin: 25px;
+}
+
+.project-2{
+width:20%;
+background: white;
+border: 1px solid #ccc;
+margin-bottom: 50px;
+transition: 0.3s;
+/* height: auto; */
+margin: 25px;
+}
+
+.project-3{
+  width:20%;
+  background: white;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  /* height: auto; */
+  margin: 25px;
+}
+
+.project-4{
+  width:20%;
+  background: white;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  /* height: auto; */
+  margin: 25px;
+  }
+
+
+.project-card{
+  width: 75%;
+  background: white;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  margin: auto;
+  padding: 30px;
+  margin: 10% 10%;
+  display:flex;
+}
+
+.wine-detail-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  background: white;
+  margin-top: 30px;
+}
+
+.detail-paragraph{
+  margin: auto;
+  width: 80%;
+  font-size: 20px;
+}
+
+.detail-info{
+  border: solid;
+  border: solid;
+  padding-bottom: 46px;
+  padding-bottom: 46px;
+  box-shadow: 0px 0px 3px 3px lightgrey;
+}
+.detail-price{
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.detail-name{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.detail-year{
+  font-size: 40px;
+  margin: 0;
+}
+.star-ratings{
+  margin: 20px 0;
+} 
