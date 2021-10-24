@@ -11,9 +11,11 @@ export default function ContactMe() {
             Contact Me
             </h1>
             <h2 className='contact-info'>
-              Email:
-              Linked In:
-              Resume:
+              
+            <a href="https://www.linkedin.com/in/courtney-abriana-jackson/">
+                <i className="fa fa-linkedin-square"></i>
+                <h3>Email: courtney_jackson1989@yahoo.com</h3>
+              </a>
             </h2>
           </div>
           </div>

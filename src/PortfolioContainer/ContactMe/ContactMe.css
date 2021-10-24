@@ -16,6 +16,11 @@
   
 }
 
+.contact-me-parent{
+  margin: -55px 0 50px;
+}
+
+
 .contact-me-card{
   display: flex;
   width: 89%;
