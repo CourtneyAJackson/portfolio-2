@@ -28,7 +28,7 @@ export default function Header() {
         className={getHeaderOptionsClass(i)}
         onClick={() => switchScreen(i, screen)}
       >
-        <span>{screen.screen_name}</span>
+        {/* <span>{screen.screen_name}</span> */}
       </div>
     ));
   };

@@ -41,7 +41,7 @@ export default function Home() {
                     1000,
                     "Entropreneur 👩🏽‍💼",
                     1000,
-                    "blah",
+                    "Team Player 👏🏾",
                     1000,
                   ]}
                 />
