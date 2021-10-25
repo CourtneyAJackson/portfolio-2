@@ -5,14 +5,14 @@ import './Projects.css'
 export default function Projects() {
   return (
     <div className='project-container'>
-      <h1 className='project-title'>My Projects</h1>
       <div className='project-card-container'>
         <div className='project-card'>
+        <h1 className='project-title'>My Projects</h1>
           <div className='project-1'>
           <img src='' alt='project 1'/>
         </div>
           <div className='project-2'>
-            <img src='' alt='project 2' />
+            
           </div>
         <div className='project-3'>
             <img src='' alt='project 3' />

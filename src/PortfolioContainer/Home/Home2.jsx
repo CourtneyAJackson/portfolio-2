@@ -5,6 +5,7 @@ import Header from './Header/Header'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
 import ContactMe from '../ContactMe/ContactMe'
+import Projects from '../Projects/Projects'
 
 
 export default function Home2() {
@@ -13,6 +14,7 @@ export default function Home2() {
       <Header/>
       <Home />
       <AboutMe />
+      <Projects/>
       <Skills />
       <ContactMe/>
     </div>

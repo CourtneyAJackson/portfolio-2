@@ -1,17 +1,17 @@
-.project-card-container{
-  width: 100%;
+/* .project-card-container{
+  width: 100%; */
   /* background: black; */
-  padding: 7px;
+  /* padding: 7px;
   box-shadow: 0px 0px 3px 3px lightgrey;
-}
-
+} */
+/* 
 .project-card-container{
   display:flex;
   justify-content: flex-end;
   align-items: center;
   padding: 7px;
 
-}
+} */
 .project-title{
   font-weight: 600;
   border: solid;
@@ -69,8 +69,8 @@ margin: 25px;
   transition: 0.3s;
   margin: auto;
   padding: 30px;
-  margin: 10% 10%;
-  display:flex;
+  margin: 6% 13% 5%;
+  box-shadow: 0 0 20px -2px #1f2235
 }
 
 .wine-detail-img{

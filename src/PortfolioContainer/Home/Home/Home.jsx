@@ -36,13 +36,13 @@ export default function Home() {
                   loop={Infinity}
                   steps={[
                     "Software Engineer 💻",
-                    1000,
+                    2000,
                     "Content Creator 🎨",
-                    1000,
+                    2000,
                     "Entropreneur 👩🏽‍💼",
-                    1000,
+                    2000,
                     "Team Player 👏🏾",
-                    1000,
+                    2000,
                   ]}
                 />
               </h1>
