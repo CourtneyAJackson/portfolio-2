@@ -1,6 +1,6 @@
 import { TOTAL_SCREENS } from "./commonUtils";
 import { Subject } from "rxjs";
-import { object } from "prop-types";
+
 
 export default class ScrollService {
   static scrollHandler = new ScrollService();
@@ -11,7 +11,7 @@ export default class ScrollService {
   constructor() {
     window.addEventListener("scroll", this.checkCurrentScreenUnderViewport);
   }
-  scrollToHire = () => {
+  scrollToHireMe = () => {
     let contactMeScreen = document.getElementById("Contact Me");
     if (!contactMeScreen) return;
     contactMeScreen.scrollIntoView({ behavior: "smooth" });
@@ -56,7 +56,7 @@ export default class ScrollService {
           ScrollService.currentScreenFadeIn.next({
             fadeScreen: screen.screen_name,
           });
-        screen["alreadyRendered"] = true;
+        screen['alreadyRendered'] = true;
         return;
       }
       if (fullyVisible) {

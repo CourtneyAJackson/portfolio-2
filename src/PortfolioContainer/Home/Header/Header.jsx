@@ -6,7 +6,7 @@ import {
 } from "../../../utilities/commonUtils";
 import ScrollService from "../../../utilities/ScrollServices";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faFontAwesome } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
 
 export default function Header() {
@@ -28,13 +28,13 @@ export default function Header() {
         className={getHeaderOptionsClass(i)}
         onClick={() => switchScreen(i, screen)}
       >
-        {/* <span>{screen.screen_name}</span> */}
+        <span>{screen.screen_name}</span>
       </div>
     ));
   };
 
   const getHeaderOptionsClass = (index) => {
-    let classes = "header-option";
+    var classes = "header-option";
     if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
 
     if (selectedScreen === index) classes += "selected-header-option";
@@ -42,7 +42,7 @@ export default function Header() {
   };
 
   const switchScreen = (index, screen) => {
-    let screenComponent = document.getElementbyId(screen.screen_name);
+    let screenComponent = document.getElementById(screen.screen_name);
     if (!screenComponent) return;
 
     screenComponent.scrollIntoView({ behavior: "smooth" });
@@ -51,30 +51,28 @@ export default function Header() {
   };
 
   return (
-      <div
-        className="header-container"
-        onClick={() => setShowHeaderOptions(!showHeaderOptions)}
-      >
-        <div className="header-parent">
-          <div
-            className="header-hamburger"
-            onClick={() => setShowHeaderOptions(!showHeaderOptions)}
-          >
-            <faFontAwesomeIcon
-              className="header-hamburger-bars"
-              icon={faBars}
-            />
-          </div>
-          <div
-            className={
-              showHeaderOptions
-                ? "header-options show-hamurger-options"
-                : "header-options"
-            }
-          >
-            {getHeaderOptions()}
-          </div>
+    <div
+      className="header-container"
+      onClick={() => setShowHeaderOptions(!showHeaderOptions)}
+    >
+      <div className="header-parent">
+        <div
+          className="header-hamburger"
+          onClick={() => setShowHeaderOptions(!showHeaderOptions)}
+        >
+          <FontAwesomeIcon className="header-hamburger-bars"
+            icon={faBars} />
+        </div>
+        <div
+          className={
+            (showHeaderOptions)
+              ? "header-options show-hamburger-options"
+              : "header-options"
+          }
+        >
+          {getHeaderOptions()}
         </div>
       </div>
+    </div>
   );
 }

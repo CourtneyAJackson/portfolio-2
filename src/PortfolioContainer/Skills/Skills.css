@@ -18,8 +18,8 @@
 
 .skills-details{
   width: 48%;
-    text-align: center;
-    padding: 30px;
+  text-align: justify;
+  padding: 30px;
 
 }
 
@@ -30,4 +30,19 @@
   box-shadow: 0px 0px 15px -1px;
   background: #babade;
   color: #ff5722;
+}
+
+.software-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.software-image{
+    width: 50%;
+    background-image: url('https://content.techgig.com/photo/76527603/4-tips-every-software-engineer-should-follow-in-todays-age.jpg?119058');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }

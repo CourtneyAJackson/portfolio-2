@@ -11,9 +11,9 @@
 .profile-parent{
   display: flex;
   align-items: center;
-  color: aqua;
+  background-color: #3a24a9;
   padding: 50px 300px;
-  background-image: url('https://cdn.hipwallpaper.com/i/48/9/Z58YOS.jpg');
+  /* background-image: url('https://cdn.hipwallpaper.com/i/48/9/Z58YOS.jpg'); */
 }
 .profile-details-name{
   font-size: 35px;

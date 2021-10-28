@@ -4,7 +4,7 @@
   height: 140px;
   color: white;
   /* background:#ff5722;  */
-  background: #babade;;
+  background: #3a24a9;
 }
 
 .header-parent{
@@ -13,7 +13,7 @@
   justify-content: space-between;
   height: 100%;
   width: 70%;
-  ;
+  
 }
 
 .header-options{
@@ -30,7 +30,6 @@
 .header-hamburger{
   display: none;
   color: white;
-
 }
 
 .header-option-seperator{
@@ -42,14 +41,14 @@
   color: #ff5722
 }
 
-@media screen and(max-width:1110px) {
+@media only screen and (max-width:1110px) {
   .header-parent{
     width: 80%;
 
   }
 }
 
-@media screen and(max-width:970px){
+@media only screen and (max-width:970px){
   .header-hamburger{
     display: block;
   }

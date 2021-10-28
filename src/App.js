@@ -10,11 +10,9 @@ import Home2 from './PortfolioContainer/Home/Home2';
 function App() {
   return (
     <div className="App">
-      {/* <PortfolioContainer/> */}
+      
       <Home2 />
-      {/* <AboutMe />
-      <Projects />
-      <ContactMe/> */}
+      
     </div>
   );
 }
