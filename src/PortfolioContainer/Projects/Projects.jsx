@@ -28,8 +28,8 @@ export default function Projects() {
           <div className="project-2-card">
             <h2>TaCato Truck</h2>
             <p>
-              The Tacato Truck is a fictional food truck specializing in Tacos that
-              partners with the ASPCA for cat fostering and adoption. This collaborative full stack application with user authentication. 
+              The Tacato Truck is a fictional food truck that
+              partners with the ASPCA for cat fostering and adoption. This is a collaborative full stack application that allows users with user authentication. 
             </p>
             <div className="tacato-logo">
               <img

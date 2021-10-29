@@ -16,7 +16,7 @@ export default function Skills() {
               <ul className="software-list">
                 <li>JavaScript</li>
                 <li>Ruby on Rails</li>
-                <li>React</li>
+                <li>React JS</li>
                 <li>HTML</li>
                 <li>Css</li>
                 <li>Express</li>

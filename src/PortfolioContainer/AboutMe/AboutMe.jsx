@@ -1,8 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
 
-import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-
 
 export default function AboutMe(props) {
   

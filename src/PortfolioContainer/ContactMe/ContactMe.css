@@ -5,6 +5,7 @@
   box-shadow: 0px 0px 15px -1px;
   background: #babade;
   color: #ff5722;
+  
 }
 
 .contact-me-container {
@@ -12,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px 0 0px;
+  margin: -25px;
 }
 
 .contact-me-parent {
