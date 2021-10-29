@@ -3,11 +3,11 @@
   justify-content: center;
   height: 140px;
   color: white;
-  /* background:#ff5722;  */
+  background:#ff5722;  
   background: #3a24a9;
 }
 
-.header-parent{
+/* .header-parent{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,4 +90,4 @@
     left: 0;
     opacity: 1;
   }
-}
+} */ 

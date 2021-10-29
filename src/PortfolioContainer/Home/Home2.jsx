@@ -11,7 +11,7 @@ import Projects from '../Projects/Projects'
 export default function Home2() {
   return (
     <div className='home-two-container'>
-      <Header/>
+     
       <Home />
       <AboutMe />
       <Projects/>

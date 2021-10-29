@@ -1,22 +1,15 @@
 import React from 'react'
 import './AboutMe.css'
-import { useEffect } from 'react'
+
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-import ScrollService from '../../utilities/ScrollServices'
-import Animations from '../../utilities/animations'
+
 
 export default function AboutMe(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id)
-      return
-    Animations.animations.fadeInScreen(props.id)
-  }
-  const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
-
+  
   return (
     <div className="about-me-container screen-container " id={props.id || ""}>
       <div className="about-me-parent">
-        <ScreenHeading title={"About Me"} subHeading={'Why Me?'}/>
+       
         <div className='about-me-card'>
         <div className='about-me-details'>
           <h1 className='about-me-title'>
