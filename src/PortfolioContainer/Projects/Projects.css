@@ -80,6 +80,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  
 }
 
 .project-1-card {
@@ -95,6 +96,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 .project-2-card {
   width: 20%;
@@ -109,6 +111,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .project-3-card {
@@ -124,6 +127,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .project-1-card:hover {
@@ -147,6 +151,7 @@
   color: #ff5722;
   font-family: cursive;
   padding: 10px 10px 10px 10px;
+  margin-bottom: 25px;
 }
 
 .veritas-logo {
@@ -154,17 +159,16 @@
   justify-content: right;
 }
 
-.veritas-logo-image{
-  width: 120px;
-    height: 110px;
-    line-height: 250px;
-    border-radius: 50%;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    background: gold;
-    display: flex;
-    align-items: center;
+.veritas-logo-image {
+  height: 200px;
+  line-height: 250px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  /* background: gold; */
+  display: flex;
+  align-items: center;
 }
 
 .budget-bubble-logo {
@@ -200,21 +204,17 @@
 }
 
 .tacato-logo img {
-  
   width: 120px;
-    height: 110px;
-    line-height: 250px;
-    border-radius: 50%;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    background: gold;
-    display: flex;
-    align-items: center;
+  height: 110px;
+  line-height: 250px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  /* background: gold; */
+  display: flex;
+  align-items: center;
 }
-
-
-
 
 .tacato-logo {
   display: flex;
@@ -222,17 +222,90 @@
 }
 
 .project-card p {
-  padding-top: 10px;
+  padding-top: 10 px;
+  margin: 0 15 px 15 px 10 px;
+  font-weight: 600;
 }
 
-
-.project-1-button .highlighted-button:hover{
-  color: #111
+.project-1-button .highlighted-button:hover {
+  color: #111;
 }
 
-.project-2-button .highlighted-button:hover{
-  color: #111
+.project-2-button .highlighted-button:hover {
+  color: #111;
 }
-.project-3-button .highlighted-button:hover{
-  color: #111
+.project-3-button .highlighted-button:hover {
+  color: #111;
+}
+
+.software-list li{
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1110px) {
+
+  .project-card-container img{
+    margin: 0 0 0 80px;
+  }
+  .project-card-container h2{
+    font-size: 20px;
+  }
+  .project-card-container p{
+    font-size: 12px;
+  }
+  .project-1-button .highlighted-button{
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+  .project-2-button .highlighted-button{
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+  .project-3-button .highlighted-button{
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-picture{
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .profile-picture{
+    margin: 0 !important;
+  }
+  .project-card-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+  }
+  .project-1-button .highlighted-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .project-2-button .highlighted-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .project-3-button .highlighted-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .project-card-container{
+    margin: 25px 0 0;
+  }
+  .profile-options .highlighted-button{
+    margin: 0 !important;
+  }
+  .profile-options, .profile-details-role{
+    text-align: center;
+  }
 }

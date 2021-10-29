@@ -10,7 +10,8 @@
 .skills-card{
   display: flex;
   width: 89%;
-  box-shadow: 0 0 20px -2px #1f2235;
+  box-shadow: 10px 12px 10px rgb(0 0 0 / 30%);
+  border: solid #ff5823;
   justify-content: space-around;
   margin: 50px 0 0;
   margin-left: 60px;

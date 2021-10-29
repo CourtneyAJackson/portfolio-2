@@ -1,4 +1,4 @@
-.contact-me-title{
+.contact-me-title {
   font-weight: 600;
   border: solid;
   font-family: cursive;
@@ -7,25 +7,82 @@
   color: #ff5722;
 }
 
-.contact-me-container{
+.contact-me-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 65px 0 50px;
-  
+  margin: 0px 0 0px;
 }
 
-.contact-me-parent{
+.contact-me-parent {
   margin: -55px 0 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  position: inherit;
+  padding-right: 80px;
+
+  /* border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); */
+  /* transition: all 2s ease; */
 }
 
-
-.contact-me-card{
-  display: flex;
+.contact-me-card {
+  /* display: flex;
   width: 89%;
   box-shadow: 0 0 20px -2px #1f2235;
-  justify-content: space-around;
+  justify-content: center;
   margin: 50px 0 0;
-  margin-left: 60px;
+  margin-left: 60 px;
+  flex-direction: column; */
+  align-self: center;
+  padding: 5em;
+  margin: 1em auto;
+  border: 2px solid #b0bec5;
+  border-radius: 6px;
+  box-shadow: 10px 12px 10px rgb(0 0 0 / 30%);
+  border: solid #ff5823;
+  margin-left: 100px;
+}
+
+.contact-me-details input {
+  width: 100%;
+  padding: 0.6em 1em;
+  margin: 0.5em auto;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid #e0e0e0;
+  outline: none;
+  transition: all 0.4s ease;
+  background-color: peachpuff;
+}
+
+.message-input textarea {
+  background: peachpuff;
+}
+
+.contact-me-card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  align-items: flex-start;
+}
+
+.contact-img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFlrHlKyXuddlAhp2B88ndGpSCjSUcXGjx5Q&usqp=CAU");
+  background-size: cover;
+  /* height: 100%;
+  width: 100vh; */
+}
+
+.contact-me-button {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
 }

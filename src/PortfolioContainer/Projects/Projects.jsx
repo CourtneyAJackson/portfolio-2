@@ -28,8 +28,8 @@ export default function Projects() {
           <div className="project-2-card">
             <h2>TaCato Truck</h2>
             <p>
-              The Tacato Truck is a food truck specializing in Tacos that
-              partners with the ASPCA for cat fostering and adoption.
+              The Tacato Truck is a fictional food truck specializing in Tacos that
+              partners with the ASPCA for cat fostering and adoption. This collaborative full stack application with user authentication. 
             </p>
             <div className="tacato-logo">
               <img
@@ -48,7 +48,7 @@ export default function Projects() {
 
             <p>
               Veritas Wines is a full stack React JS and Ruby on Rails wine
-              rating app. "In Vino Veritas."
+              rating app. This app allows users a full CRUD experience once creating a profile. "In Vino Veritas."
             </p>
 
             <div className="veritas-logo">
